@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>My School Photography Club</title>
+    <!-- <style>table,th,td{border: 1px solid gray;</style> -->
+    <link rel="stylesheet" href="style.css">  
+
+</head>
+<body>
+    <header>
+        <h1> Welcome to Our School Photogtaphy Club</h1>
+        <p>
+          Capturing memories,one photo at a time  
+        </p>
+
+    </header>
+    <nav id="Navigation">
+        <h3>Navigation(Table of Contents)</h3>
+        <ul>
+            <li><a href="#About">About us </a></li>
+            <li><a href="#Club Member">Club Member</a></li>
+            <li><a href="#Equipment List">Equipment</a></li>
+            <li><a href="#Upcoming Events">Upcoming Events</a></li>
+            <li><a href="#Join Our Club">Join Our Club</a></li>
+            <li><a href="#Useful Resorces">Useful Resorces</a></li>
+        </ul>
+    </nav>
+    <section id="About">
+        <h2>About Our Photography Club</h2>
+        <p>our photography club meets every friday after school. we welcom students of all skil levels!</p>
+        <h3>What We Do(Unordered List):</h3>
+        <ul>
+            <li>Weekly photo walks around campus</li>
+            <li>Photograpy technique workshops</li>
+            <li>Photo editing sessions</li>
+            <li>Monthly photo competitions</li>
+            <li>Guest speaker presentation</li>
+        </ul>
+        <h3>How to Improve Your Photography(Ordered List):</h3>
+        <ol>
+            <li>Learn the rule of thirds</li>
+            <li>Practice taking photos daily</li>
+            <li>Experment with different angles</li>
+            <li>Edit your photos thoughtfully</li>
+            <li>share your work for feedback</li>
+        </ol>
+        
+    </section>
+    <section id="members">
+        <h2>Club Members & Roles</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Grade</th>
+                        <th>Role</th>
+                        <th>Favorite Photography style Years in Club</th>
+                    </tr> 
+                    <tr>
+                        <th>Sara Johnson</th>
+                        <th>12th</th>
+                        <th>Club President</th>
+                        <th>Portrait Photography    3</th>
+                    </tr>
+                    <tr>
+                        <th>Emma Rodriguez</th>
+                        <th>10th</th>
+                        <th>Event Coordinator</th>
+                        <th>Street Photography  1</th>
+                    </tr>
+                    <tr>
+                        <th>Mike Chen</th>
+                        <th>11th</th>
+                        <th>Equipment Manager</th>
+                        <th>Nature Photography  2</th>
+                    </tr>
+                    <tr>
+                        <th>David Kim</th>
+                        <th>9th</th>
+                        <th>SocialMedia Manager</th>
+                        <th>Marco photography   1</th>
+                        </tr>
+                </thead>
+            </table>
+    </section>
+    <section id="equipment">
+            <h2>Available Equipment</h2>
+        <table >
+            <thead>
+                <tr>
+                    <th>Equipment</th>
+                    <th>Brand/Model</th>
+                    <th>Quantity Condition</th>
+                </tr>
+                <tr>
+                    <th>Dslr Camera</th>
+                    <th>Canon Eos Rebel T7</th>
+                    <th>5  Excellent</th>
+                </tr>
+                <tr>
+                    <th>Tripod</th>
+                    <th>Manfrotto Compact</th>
+                    <th>8 Good</th>
+                </tr>
+                <tr>
+                    <th>Flas Unit</th>
+                    <th>Canon Speedlite</th>
+                    <th>3   Good</th>
+                </tr>
+                <tr>
+                    <th>Memory Card</th>
+                    <th>Sandisk 64GB</th>
+                    <th>15 Excellent</th>
+                </tr>
+                </thead>
+            </table>
+    </section>
+    <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><strong>October Events</strong>
+
+                     <ol>
+                        <li>Oct 5:Autumn Photo walk</li>
+                        <li>Oct 12: Portrait Workshop</li>
+                        <li>Out 19:Guest Speaker- Professional Photographer</li>
+                        <li>Oct 26:MonthlyCompetition Judging</li>
+                     </ol>
+                </li> 
+                <li><strong>Novemvber Events</strong>
+                    <ol>
+                        <li>Nov 2: Black & White Photography Workshop</li>
+                        <li>Nov 9: Equipment Maintenance Day</li>
+                        <li>Nov 16: Photo Editing Marathon</li>
+                        <li>Nov 23: Thanksgivig Break-No Meeting</li>
+                    </ol>    
+                </li>
+            </ul> 
+    </section>
+    <section id="Join-form"> 
+            <h2>Join Our Photography Club</h2>
+            <form action="#" method="post">
+                <label for="Student-name">Full Name</label>
+                <input type="text" id="Student-name" name="Student-name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email"id="email" name="email" required>
+
+                <label for="grade">Grade Level</label>
+                <select id="grade" name="grade" required>
+                    <option value=""> Select your grade</option>
+                    <option value="9">9th Grade</option>
+                    <option value="10">10th Grade</option>
+                    <option value="11">11th Grade</option>
+                </select>
+                <label for="camera">Do you Own a camera?</label>
+                <input type="radio"id="camera-yes" name="camra" value="yes">
+                <label for="camera-yes">yes</label>
+                <input type="radio" id="camera-no" name="camera" value="no">
+                <label for="camera-no">No</label>
+
+                 <label for="interests">Photography Interests (check all that apply):</label>
+                 <input type="checkbox" id="portrait" name="interests" value="portrait">
+                 <label for="portrait">Portrait</label><br>
+                 <input type="checkbox" id="landscape" name="interests" value="landscape">
+                 <label for="landscape">Landscape</label><br>
+                 <input type="checkbox" id="sports" name="interests" value="sports">
+                 <label for="sports">Sports</label><br>
+                 <input type="checkbox" id="macro" name="interests" value="macro">
+                 <label for="macro">Macro</label>
+
+                 <label for="why-join">Why do you want to join our club?</label>
+                 <textarea id="Why-join" name="Why-Join" rows="4" placeholder="Tell us What interests you about photography..."></textarea>
+
+                 <button type="submit">Submit Application</button>
+            </form>     
+    </section>
+    <section id="resources">
+            <h2>Useful Photography Resources</h2>
+
+            <h3>Educatioal Websites:</h3>
+            <ul>
+                <li><a href="#Digital Camera World Tutorial">Digital Camera World Tutorial</a></li>
+                <li><a href="#PetaPixel-Photography News & Tutorials">PetaPixel-Photography News & Tutorials</a></li>
+                <li><a href="#Scan Tucker Photography Youtube Channel">Scan Tucker Photography Youtube Channel</a></li>                
+            </ul>
+            <h3>Free Photo Editing Software:</h3>
+            <ul>
+                <li><a href="GIMP(GNU Image Manupulation Program)">GIMP(GNU Image Manupulation Program)</a></li>
+                <li><a href="Canva Online Editor">Canva Online Editor</a></li>
+
+            </ul>
+            <h3>Internal Navigation Links:</h3>
+            <ul>
+                <li><a href="#Back to Top Navigation">Back to Top Navigation</a></li>
+                <li><a href="#About Section">About Section</a></li>
+                <li><a href="#Membership Form">Membership Form</a></li>
+            </ul>
+    </section>
+      </ol>
+    
+    <footer>
+        <p> 2025 School Photography Club. All rights reserved.</p>
+        <p>contact us:<a href="#photoclub@school.edu">photoclub@school.edu</a></p>
+
+    </footer>
+    <hr>
+</body>
+</html>
